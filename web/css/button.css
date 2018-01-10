@@ -1,0 +1,41 @@
+.btn-icon {
+	background-color: #1d2023;
+    box-shadow: 2px 2px 5px black;
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    text-align: left;
+	text-decoration:none !important;
+	border-radius: 10px;
+}
+.btn-icon:hover {
+	background-color: #222629;
+}
+.btn-icon span.icon32{
+	margin: 6px 15px;
+    position: absolute;
+}
+.btn-icon span.title{
+	display: block;
+        color: blue;
+    font-size: 14px;
+    padding: 0 20px 0 60px;
+    position: relative;
+	text-align: center;
+}
+
+.btn-icon:hover > span.icon32.upload {
+	background-position:0 0;    
+}
+.btn-icon:hover > span.icon32.download {
+    background-position:0 -32px;    
+}
+.icon32 {
+	background-image: url("img/icons-32.png");
+	background-repeat:no-repeat;
+	background-position:bottom;
+	width: 32px;
+	height: 32px;
+	display:inline-block;
+	/*transition: all 0.2s ease-in-out 0s;*/	
+}
